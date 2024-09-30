@@ -4,6 +4,9 @@ class Calculator {
     public static void main(String[] args){
         int sum = addition(200, 300);
         System.out.println(sum);
+
+        int result = subtract(1000, 400);
+        System.out.println(result);
     }
     //Creating different static methods
     //static subtract method
